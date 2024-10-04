@@ -1,0 +1,4 @@
+com\spamclassifier\ClassifierUtils.class
+com\spamclassifier\DataLoader.class
+com\spamclassifier\SpamClassifier.class
+com\spamclassifier\Email.class

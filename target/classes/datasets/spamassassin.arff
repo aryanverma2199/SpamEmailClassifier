@@ -1,0 +1,22 @@
+@RELATION spam_ham
+
+@ATTRIBUTE content STRING
+@ATTRIBUTE class {spam, ham}
+
+@DATA
+"Congratulations! You've won a $1,000 Walmart gift card. Click here to claim now.",spam
+"This is a reminder for your appointment tomorrow at 10 AM.",ham
+"Dear user, your account has been compromised. Please verify your identity.",spam
+"Don't forget to bring your documents for the meeting next week.",ham
+"Limited time offer! Buy one get one free on all items!",spam
+"Hi, can we reschedule our meeting for next week?",ham
+"Your invoice for the last month is attached. Please review it.",ham
+"Claim your free vacation now! Click here for details.",spam
+"Thanks for signing up for our newsletter!",ham
+"Urgent: Update your payment information immediately!",spam
+"You have won a free ticket to Bahamas, click here!",spam
+"Meeting agenda has been sent to your email.",ham
+"Act now! Get a free smartphone by signing up.",spam
+"Your order has been shipped!",ham
+"Last chance! Discount expires tonight!",spam
+"Reminder: Your subscription will renew next month.",ham
